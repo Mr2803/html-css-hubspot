@@ -214,7 +214,7 @@ margin-top: 25px;
 
 .categ ul li a{
   text-decoration: none;
-  color:#33475B
+  color:#33475B;
 }
 /* |header */
 
@@ -225,4 +225,21 @@ margin-top: 25px;
   background: url(../img/sfondohub.png)
 }
 
+.first h1{
+  color:#33475B;;
+  font-size: 60px;
+  display: block;
+  padding-top: 10%;
+  padding-left: 20%;
+  width: 50%;
+}
+
+.first h4{
+  color:#33475B;;
+  display: block;
+  padding-top: 2%;
+  padding-left: 20%;
+  font-size: 15px;
+  width: 50%;
+}
 /* |prima sezione */
