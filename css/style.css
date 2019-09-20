@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-
+/* header */
 .global-header{
   width: 100%;
   height: 200px;
@@ -37,7 +37,6 @@
 
 .logo img{
   height: 40%;
-  width: 25%;
   margin-left: 70%;
   margin-top:15px;
 }
@@ -217,3 +216,13 @@ margin-top: 25px;
   text-decoration: none;
   color:#33475B
 }
+/* |header */
+
+/* prima sezione */
+.first{
+  height: 693px;
+  width: 100%;
+  background: url(../img/sfondohub.png)
+}
+
+/* |prima sezione */
