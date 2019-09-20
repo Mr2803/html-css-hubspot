@@ -20,7 +20,7 @@
 .top-header{
   width: 100%;
   height:50px;
-  background-color: lightgreen;
+  background-color:#33475B;
 }
 
 .top-header::after{
@@ -32,22 +32,67 @@
 .logo{
   float: left;
   width:10%;
-  background:red;
   height:50px;
+}
+
+.logo img{
+  height: 40%;
+  width: 25%;
+  margin-left: 70%;
+  margin-top:15px;
 }
 
 .about{
   float: left;
   width:30%;
-  background:brown;
   height:50px;
+}
+
+.about ul{
+  list-style-type: none;
+}
+
+.about ul li{
+  display:block;
+  float:left;
+  color:white;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.about ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+.about ul li a:hover{
+  color:orange;
 }
 
 .login{
   float: right;
-  width:40%;
-  background:purple;
+  width:20%;
   height:50px;
+}
+
+.login ul li{
+  display:block;
+  float:left;
+  color:white;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.login ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.login ul li:nth-child(3){
+  font-size: 4px;
 }
 /* |top-header */
 
