@@ -49,19 +49,61 @@
   background:purple;
   height:50px;
 }
-
-
 /* |top-header */
 
-
+/* middle-header */
 .middle-header{
   width: 100%;
   height:75px;
   background-color: pink;
 }
 
+.middle-header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info{
+  float: left;
+  width:30%;
+  background:black;
+  height:75px;
+}
+
+.get-hub{
+  float: right;
+  width:30%;
+  background:black;
+  height:75px;
+}
+
+/* |middle-header */
+
+/* bottom-header */
+
 .bottom-header{
   width: 100%;
   height:75px;
   background-color: orange;
+}
+
+.bottom-header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo2{
+  float: left;
+  width:30%;
+  background:green;
+  height:75px;
+}
+
+.categ{
+  float: right;
+  width:40%;
+  background:green;
+  height:75px;
 }
