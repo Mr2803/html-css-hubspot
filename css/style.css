@@ -116,6 +116,21 @@
   height:75px;
 }
 
+.info ul{
+  list-style-type: none;
+  margin-left: 30%;
+}
+
+.info ul li{
+  display:block;
+  float:left;
+  color:white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 25px;
+  color:#33475B;
+}
+
 .get-hub{
   float: right;
   width:30%;
