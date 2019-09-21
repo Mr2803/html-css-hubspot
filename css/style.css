@@ -350,17 +350,66 @@ section.middle{
 
 .first-middle2-1{
   width: 35%;
-  background: lightblue;
+  background: white;
 }
 
 .first-middle2-1 img{
-  width:40%;
-  margin-left: 20%;
+  width:43%;
+  margin-left: 25%;
+  margin-top: 10%;
 }
+
+.first-middle2-1 a{
+  text-decoration: none;
+  color:white;
+  display:inline-block;
+  padding: 16px 20px;
+  background:#FF7A59;
+  margin:0 10px;
+  font-size:15px;
+  margin-top:10px;
+  margin-left: 33%;
+  border-radius: 5px;
+  }
+
 
 .first-middle2-2{
   width: 65%;
-  background:grey;
+  background:white;
+}
+
+.first-middle2-2 h3{
+  font-family: "AvenirNextLTPro-Bold.otf";
+  margin-top: 50px;
+  color: #33475B;
+}
+
+.first-middle2-2 p{
+  margin-top: 10px;
+  color: #33475B;
+}
+
+.first-middle2-2 ul{
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.first-middle2-2 ul li{
+  display:block;
+  float:left;
+  color:#33475B;
+
+}
+
+.first-middle2-2 ul li i{
+  display:block;
+  float:left;
+  color:#FF7A59;
+  margin-right:10px;
+}
+
+i.i-margin{
+  margin-left:10px;
 }
 
 
