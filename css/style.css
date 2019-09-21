@@ -541,7 +541,7 @@ font-size: 16px;
 .global-griglia{
   width: 100%;
   height:600px;
-  background: #00B9A8;
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
 }
 
 .uppergriglia{
@@ -572,8 +572,7 @@ font-size: 16px;
 
 .lowergriglia{
   width: 100%;
-  height:350px;
-  background:lightblue;
+  height:300px;
 }
 
 .lowergriglia::after{
@@ -584,8 +583,7 @@ font-size: 16px;
 
 .lowergriglia1{
   width: 80%;
-  height:175px;
-  background:brown;
+  height:150px;
   margin-left: 10%;
 }
 
@@ -603,10 +601,13 @@ font-size: 16px;
   border-right: 1px solid white;
 }
 
+.lowergriglia1 .box-griglia:nth-child(4){
+  border-right:0;
+}
+
 .lowergriglia2{
   width: 80%;
-  height:175px;
-  background:orange;
+  height:150px;
   margin-left: 10%;
 }
 
@@ -614,7 +615,18 @@ font-size: 16px;
   content:"";
   display:table;
   clear: both;
+}
 
+.box-griglia2{
+  float:left;
+  width: 25%;
+  height: 100%;
+  border-top:1px solid white;
+  border-right: 1px solid white;
+}
+
+.lowergriglia2 .box-griglia2:nth-child(4){
+  border-right:0;
 }
 
 /*| terza sezione */
