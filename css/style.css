@@ -21,6 +21,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   width: 100%;
   height: 200px;
   background:lightblue;
+
 }
 
 .global-header::after{
@@ -321,7 +322,7 @@ section.middle{
 .global-middle2{
   width: 100%;
   height: 850px;
-  background-color: lightgreen;
+  background-color: #F4F8FA;
 }
 
 .global-middle2::after{
@@ -437,23 +438,23 @@ i.i-margin{
   width: 30%;
 }
 
-h3.column1,
-h3.column2,
-h3.column3{
+.divider h3.column1,
+.divider h3.column2,
+.divider h3.column3{
   margin-top: 10px;
   color:#33475B;
   font-family: "AvenirNextLTPro-Bold.otf"
 }
 
-h3.column1{
+.divider h3.column1{
   margin-left: 35%;
 }
 
-h3.column2{
+.divider h3.column2{
   margin-left: 38%;
 }
 
-h3.column3{
+.divider h3.column3{
   margin-left: 35%;
 }
 
@@ -475,13 +476,46 @@ h3.column3{
   border-top:1px;
 }
 
-
-
 .divider-2{
   width: 100%;
   height: 45%;
-  background:brown;
+}
 
+.divider-2 h3{
+  font-family: "AvenirNextLTPro-Bold.otf";
+  color:#33475B;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.divider-2 ul{
+  list-style-type: none;
+  margin-left: 4%;
+}
+
+.divider-2 ul li{
+color:#33475B;
+margin-bottom: 15px;
+font-size: 16px;
+}
+
+.divider-2 ul li i{
+  color:#FF7A59;
+}
+
+.divider-2 a{
+  text-decoration: none;
+  color:white;
+  display:inline-block;
+  padding: 16px 20px;
+  background:#FF7A59;
+  margin:0 10px;
+  font-size:15px;
+  margin-top:10px;
+  margin-left: 33%;
+  border-radius: 5px;
 }
 
 
@@ -492,7 +526,7 @@ h3.column3{
   height: 530px;
   margin-top:20px;
   width:30%;
-  background:pink;
+  background:white;
 }
 
 .third-middle2{
