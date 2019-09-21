@@ -278,26 +278,49 @@ margin-top: 25px;
 /* seconda sezione */
 section.middle{
   width: 100%;
-  height:1000px;
+  height:1300px;
   background: #F4F8FA;
 }
 
 .global-middle{
   width: 70%;
   background: red;
-  height: 950px;
-  margin-top: 50px;
+  height: 1250px;
   margin-left: 15%;
 }
 
 .middle1{
   width: 100%;
-  height: 250px;
-  background: lightblue;
+  height: 400px;
+  background: #F4F8FA;
 }
+
+.middle1 img{
+  margin-top: 50px;
+  height: 50%;
+  margin-left: 40%;
+}
+
+.middle1 h1{
+  text-align: center;
+  font-family: "AvenirNextLTPro-Bold.otf";
+  font-size: 35px;
+  color:#33475B;
+  margin-top: 15px;
+}
+
+.middle1 p{
+  text-align: center;
+  color:#33475B;
+  margin-top: 10px;
+  display:block;
+  width: 70%;
+  margin-left: 15%;
+}
+
 .global-middle2{
   width: 100%;
-  height: 700px;
+  height: 850px;
   background-color: lightgreen;
 }
 
@@ -309,15 +332,43 @@ section.middle{
 
 .first-middle2{
   width: 100%;
-  height:200px;
+  height:300px;
   background:orange;
 }
+
+.first-middle2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first-middle2-1,
+.first-middle2-2{
+  float:left;
+  height: 100%;
+}
+
+.first-middle2-1{
+  width: 35%;
+  background: lightblue;
+}
+
+.first-middle2-1 img{
+  width:40%;
+  margin-left: 20%;
+}
+
+.first-middle2-2{
+  width: 65%;
+  background:grey;
+}
+
 
 .second-middle2,
 .third-middle2,
 .fourth-middle2{
   float:left;
-  height: 450px;
+  height: 500px;
   margin-top:50px;
   width:30%;
   background:pink;
