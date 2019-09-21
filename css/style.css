@@ -261,3 +261,36 @@ margin-top: 25px;
   transition:0.5s;
 }
 /* |prima sezione */
+
+/* seconda sezione */
+section.middle{
+  width: 100%;
+  height:1000px;
+  background: #F4F8FA;
+}
+
+.global-middle{
+  width: 80%;
+  background: red;
+  height: 950px;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.middle1{
+  width: 100%;
+  height: 250px;
+  background: lightblue;
+}
+
+
+/* |seconda sezione */
+
+/* terza sezione */
+.global-griglia{
+  width: 100%;
+  height:600px;
+  background: #00B9A8;
+}
+
+/*| terza sezione */
