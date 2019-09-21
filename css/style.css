@@ -629,4 +629,45 @@ font-size: 16px;
   border-right:0;
 }
 
+.box-griglia img,
+.box-griglia2 img{
+  margin-top: 20px;
+}
+
+img.center{
+  margin-left: 45%;
+}
+
+img.center2{
+  margin-left: 41%;
+}
+
+img.center3{
+  margin-left: 38%;
+}
+
+.box-griglia h2,
+.box-griglia2 h2{
+  text-align: center;
+  font-family: "AvenirNextLTPro-Bold.otf";
+  color:white;
+  font-size: 45px;
+}
+
+.box-griglia h2::after,
+.box-griglia2 h2::after{
+  content: '+';
+  display: inline-block;
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.box-griglia p,
+.box-griglia2 p{
+  text-align: center;
+  color:white;
+  opacity:.7;
+}
 /*| terza sezione */
