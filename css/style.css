@@ -270,17 +270,49 @@ section.middle{
 }
 
 .global-middle{
-  width: 80%;
+  width: 70%;
   background: red;
   height: 950px;
   margin-top: 50px;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .middle1{
   width: 100%;
   height: 250px;
   background: lightblue;
+}
+.global-middle2{
+  width: 100%;
+  height: 700px;
+  background-color: lightgreen;
+}
+
+.global-middle2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first-middle2{
+  width: 100%;
+  height:200px;
+  background:orange;
+}
+
+.second-middle2,
+.third-middle2,
+.fourth-middle2{
+  float:left;
+  height: 450px;
+  margin-top:50px;
+  width:30%;
+  background:pink;
+}
+
+.third-middle2{
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
