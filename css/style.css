@@ -794,7 +794,17 @@ div.cliente img{
 .info2-2{
   float:left;
   width:35%;
-  height:450px;
-  background:lightgreen;
+  height:450px;;
+}
+
+.donna{
+  height:300px;
+  background:#F2547D;
+  width:80%;
+  border-radius: 50%;
+}
+
+.donna img{
+  width: 100%;
 }
 /* |quarta sezione */
