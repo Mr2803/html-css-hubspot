@@ -412,13 +412,27 @@ i.i-margin{
   margin-left:10px;
 }
 
+.divider{
+  width: 100%;
+  height: 55%;
+  background:orange;
+
+}
+
+.divider-2{
+  width: 100%;
+  height: 45%;
+  background:brown;
+
+}
+
 
 .second-middle2,
 .third-middle2,
 .fourth-middle2{
   float:left;
-  height: 500px;
-  margin-top:50px;
+  height: 530px;
+  margin-top:20px;
   width:30%;
   background:pink;
 }
