@@ -925,7 +925,6 @@ div.cliente img{
 
 .footer-bottom{
   height: 30%;
-  background:lightgreen;
 }
 
 .foot-bot1{
@@ -960,7 +959,6 @@ div.cliente img{
 .foot-bot2{
   height: 70%;
   width: 100%;
-  background:brown;
 }
 
 .foot-bot2::after{
@@ -976,11 +974,24 @@ div.cliente img{
   height: 100%;
 }
 
-.foot-bot2-1{
-  background:yellow;
-
+.foot-bot2-1 img{
+  padding-top: 20px;
 }
 
-.foot-bot2-2{
-  background:orange;
+.foot-bot2-1 h3{
+  color:#CBD6E2;
+}
+
+
+.foot-bot2-2 a{
+  text-decoration: none;
+  color:#CBD6E2;
+  font-size: 19px;
+  padding-top: 20px;
+  display: inline-block;
+  float: right;
+}
+
+#pp{
+  margin-left:50px;
 }
