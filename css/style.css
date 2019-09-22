@@ -678,12 +678,18 @@ section.info{
   width:100%;
   background:#F4F8FA;
   height: 900px;
-
 }
+
+/* section.info::after{
+  content: "";
+  display:table;
+  clear: both;
+} */
+
 .global-info{
   width: 70%;
   height: 900px;
-  margin-left: 15%;
+  margin-left:15%;
 }
 
 .info1{
@@ -703,6 +709,7 @@ section.info{
   width:35%;
   height:450px;
 }
+
 .info1-1 h1{
   color:#33475B;
   padding-top:100px;
@@ -740,6 +747,7 @@ div.cliente{
   width: 20%;
   height:30%;
   margin-left: 5%;
+  background:#F4F8FA;
 }
 
 div.cliente img{
@@ -749,6 +757,7 @@ div.cliente img{
 .info2{
   width:100%;
   height:450px;
+  background:#F4F8FA;
 }
 
 .info2::after{
@@ -810,3 +819,9 @@ div.cliente img{
 
 
 /* |quarta sezione */
+
+.footer{
+  width: 100%;
+  height:700px;
+  background: green;
+}
