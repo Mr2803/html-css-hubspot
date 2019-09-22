@@ -16,30 +16,32 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 
 }
 
-/* header */
-.global-header{
-  width: 100%;
-  height: 200px;
-  background:lightblue;
+/* clearfix */
 
-}
-
-.global-header::after{
+.global-header::after,
+.top-header::after,
+.middle-header::after,
+.bottom-header::after,
+.global-middle2::after,
+.first-middle2::after{
   content: "";
   display: table;
   clear: both;
 }
+
+/* |clearfix */
+
+/* header */
+.global-header{
+  width: 100%;
+  height: 200px;
+}
+
 /* top-header */
 .top-header{
   width: 100%;
   height:50px;
   background-color:#33475B;
-}
-
-.top-header::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .logo{
@@ -115,12 +117,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   background-color: #E2E2E2;
 }
 
-.middle-header::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .informazioni{
   float: left;
   width:30%;
@@ -184,12 +180,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   width: 100%;
   height:75px;
   background-color: white;;
-}
-
-.bottom-header::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .logo2{
@@ -324,22 +314,10 @@ section.middle{
   background-color: #F4F8FA;
 }
 
-.global-middle2::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .first-middle2{
   width: 100%;
   height:300px;
   background:orange;
-}
-
-.first-middle2::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .first-middle2-1,
@@ -516,7 +494,6 @@ font-size: 16px;
   margin-left: 33%;
   border-radius: 5px;
 }
-
 
 .second-middle2,
 .third-middle2,
