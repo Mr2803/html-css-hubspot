@@ -23,7 +23,17 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 .middle-header::after,
 .bottom-header::after,
 .global-middle2::after,
-.first-middle2::after{
+.first-middle2::after,
+.lowergriglia::after,
+.lowergriglia1::after,
+.lowergriglia2::after,
+.info1::after,
+.cliente-global::after,
+.info2::after,
+.footer-top::after,
+.footer-middle::after,
+.foot-bot2::after,
+.foot-bot2-2::after{
   content: "";
   display: table;
   clear: both;
@@ -551,22 +561,10 @@ font-size: 16px;
   height:300px;
 }
 
-.lowergriglia::after{
-  content:"";
-  display:table;
-  clear: both;
-}
-
 .lowergriglia1{
   width: 80%;
   height:150px;
   margin-left: 10%;
-}
-
-.lowergriglia1::after{
-  content:"";
-  display:table;
-  clear: both;
 }
 
 .box-griglia{
@@ -585,12 +583,6 @@ font-size: 16px;
   width: 80%;
   height:150px;
   margin-left: 10%;
-}
-
-.lowergriglia2::after{
-  content:"";
-  display:table;
-  clear: both;
 }
 
 .box-griglia2{
@@ -656,12 +648,6 @@ section.infogen{
   background:#F4F8FA;
 }
 
-/* section.infogen::after{
-  content: "";
-  display:table;
-  clear: both;
-} */
-
 .global-info{
   width: 70%;
   height: 900px;
@@ -672,12 +658,6 @@ section.infogen{
   width:100%;
   height:450px;
   background:#F4F8FA;
-}
-
-.info1::after{
-  content: "";
-  display:table;
-  clear: both;
 }
 
 .info1-1{
@@ -712,12 +692,6 @@ section.infogen{
   margin-top: 200px;
 }
 
-.cliente-global::after{
-  content: "";
-  display:table;
-  clear: both;
-}
-
 div.cliente{
   float:left;
   width: 20%;
@@ -734,12 +708,6 @@ div.cliente img{
   width:100%;
   height:450px;
   background:#F4F8FA;
-}
-
-.info2::after{
-  content: "";
-  display:table;
-  clear: both;
 }
 
 .info2-1{
@@ -814,12 +782,6 @@ div.cliente img{
   background:#33475B;
 }
 
-.footer-top::after{
-  content: "";
-  display:table;
-  clear:both;
-}
-
 .foot-top{
   float:left;
   width: 25%;
@@ -855,12 +817,6 @@ div.cliente img{
   background:#33475B;
 }
 
-.footer-middle::after{
-  content: "";
-  display:table;
-  clear: both;
-}
-
 .foot-middle ul{
   list-style-type: none;
 }
@@ -868,7 +824,6 @@ div.cliente img{
 .foot-middle a{
   text-decoration: none;
 }
-
 
 .foot-middle1{
   margin-left: 73%;
@@ -938,12 +893,6 @@ div.cliente img{
   width: 100%;
 }
 
-.foot-bot2::after{
-  content:"";
-  display:table;
-  clear:both;
-}
-
 .foot-bot2-1,
 .foot-bot2-2{
   float: left;
@@ -957,13 +906,6 @@ div.cliente img{
 
 .foot-bot2-1 h3{
   color:#CBD6E2;
-}
-
-
-.foot-bot2-2::after{
-  display: table;
-  content:"";
-  clear: both;
 }
 
 .foot-bot2-2 a{
