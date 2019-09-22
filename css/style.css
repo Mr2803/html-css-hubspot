@@ -923,9 +923,64 @@ div.cliente img{
   color:#0091ae;
 }
 
-
-
 .footer-bottom{
   height: 30%;
   background:lightgreen;
+}
+
+.foot-bot1{
+  height: 30%;
+  width: 60%;
+  margin-left: 20%;
+  background: #33475B;
+}
+
+.foot-bot1 ul{
+  list-style-type: none;
+  padding-top: 1%;
+  margin-left: 150px;
+}
+
+.foot-bot1 ul li{
+  float:left;
+  margin-right: 50px;
+  font-size: 17px;
+}
+
+.foot-bot1 ul li a{
+  text-decoration: none;
+  color:#CBD6E2;
+}
+
+.foot-bot1 ul li a:hover{
+  text-decoration: none;
+  color:#0091ae;
+}
+
+.foot-bot2{
+  height: 70%;
+  width: 100%;
+  background:brown;
+}
+
+.foot-bot2::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.foot-bot2-1,
+.foot-bot2-2{
+  float: left;
+  width:50%;
+  height: 100%;
+}
+
+.foot-bot2-1{
+  background:yellow;
+
+}
+
+.foot-bot2-2{
+  background:orange;
 }
