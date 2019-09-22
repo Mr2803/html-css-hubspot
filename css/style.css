@@ -121,19 +121,19 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   clear: both;
 }
 
-.info{
+.informazioni{
   float: left;
   width:30%;
   background:#E2E2E2;
   height:75px;
 }
 
-.info ul{
+.informazioni ul{
   list-style-type: none;
   margin-left: 30%;
 }
 
-.info ul li{
+.informazioni ul li{
   display:block;
   float:left;
   color:white;
@@ -674,13 +674,12 @@ img.center3{
 /*| terza sezione */
 
 /* quarta sezione */
-section.info{
+section.infogen{
   width:100%;
   background:#F4F8FA;
-  height: 900px;
 }
 
-/* section.info::after{
+/* section.infogen::after{
   content: "";
   display:table;
   clear: both;
@@ -820,8 +819,28 @@ div.cliente img{
 
 /* |quarta sezione */
 
-.footer{
-  width: 100%;
-  height:700px;
-  background: green;
+.footer-global{
+  height: 700px;
+  background:#33475B;
+}
+
+.footer-top,
+.footer-middle,
+.footer-bottom{
+  width:100;
+}
+
+.footer-top{
+  height: 50%;
+  background:pink;
+}
+
+.footer-middle{
+  height: 20%;
+  background:lightblue;
+}
+
+.footer-bottom{
+  height: 30%;
+  background:lightgreen;
 }
