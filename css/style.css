@@ -957,7 +957,7 @@ div.cliente img{
 }
 
 .foot-bot2{
-  height: 70%;
+  height: 69%;
   width: 100%;
 }
 
@@ -982,6 +982,12 @@ div.cliente img{
   color:#CBD6E2;
 }
 
+
+.foot-bot2-2::after{
+  display: table;
+  content:"";
+  clear: both;
+}
 
 .foot-bot2-2 a{
   text-decoration: none;
