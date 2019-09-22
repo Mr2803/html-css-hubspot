@@ -49,6 +49,8 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 
 /* top-header */
 .top-header{
+  position:fixed;
+  top:0;
   width: 100%;
   height:50px;
   background-color:#33475B;
@@ -120,6 +122,9 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   font-size: 35px;
   margin-top: -10px;
   margin-right: 10px;
+}
+
+.bord-left{
   display:inline-block;
   padding: 0px 25px;
   border-left:1px solid grey;
@@ -129,6 +134,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 
 /* middle-header */
 .middle-header{
+  margin-top: 50px; /* WARNING: chiedere a simone */
   width: 100%;
   height:75px;
   background-color: #E2E2E2;
@@ -921,6 +927,10 @@ div.cliente img{
   padding-top: 20px;
   display: inline-block;
   float: right;
+}
+
+.foot-bot2-2 a:hover{
+  color:#0091ae;
 }
 
 #pp{
