@@ -115,9 +115,16 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   font-size: 15px;
 }
 
-.login ul li:nth-child(3){
-  font-size: 4px;
+.login ul li i.profile{
+  color:#2B2A29;
+  font-size: 35px;
+  margin-top: -10px;
+  margin-right: 10px;
+  display:inline-block;
+  padding: 0px 25px;
+  border-left:1px solid grey;
 }
+
 /* |top-header */
 
 /* middle-header */
@@ -189,7 +196,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 .bottom-header{
   width: 100%;
   height:75px;
-  background-color: white;;
+  background-color: white;
 }
 
 .logo2{
@@ -327,7 +334,6 @@ section.middle{
 .first-middle2{
   width: 100%;
   height:300px;
-  background:orange;
 }
 
 .first-middle2-1,
