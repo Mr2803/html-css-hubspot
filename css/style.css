@@ -168,7 +168,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   color:#33475B;
   display: block;
   margin-bottom:15px;
-  padding:8px auto;
+  /* padding:8px auto; */
 }
 
 .informazioni .dropdown-content a:last-child{
@@ -182,7 +182,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 .informazioni .dropdown-content a:hover{
   background:#E5F5F8;
 }
-
 /* |WARNING:  */
 
 .informazioni ul{
@@ -261,6 +260,56 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   width:40%;
   height:75px;
 }
+
+/* WARNING:  */
+.categ a.dropdown{
+  position:relative;
+}
+
+.categ .dropdown-content-global{
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 2;
+  border-radius: 10px;
+  color:black;
+  right:240px;
+}
+
+.dropdown-content-global{
+  height:400px;
+  width:35%;
+
+}
+
+.dropdown1,
+.dropdown2,
+.dropdown3{
+  width: 100%;
+}
+
+.dropdown1{
+  height:30%;
+  background: pink;
+}
+
+.dropdown2{
+  height: 50%;
+  background:lightblue;
+}
+
+.dropdown3{
+  height: 20%;
+  background:lightgreen;
+}
+
+.categ li.dropdown:hover .dropdown-content-global{
+  display:inherit;
+}
+
+/* |WARNING:  */
 
 .categ ul{
   list-style: none;
