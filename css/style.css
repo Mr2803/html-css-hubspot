@@ -33,7 +33,8 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 .footer-top::after,
 .footer-middle::after,
 .foot-bot2::after,
-.foot-bot2-2::after{
+.foot-bot2-2::after,
+.dropdown2{
   content: "";
   display: table;
   clear: both;
@@ -279,7 +280,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 }
 
 .dropdown-content-global{
-  height:400px;
+  height:350px;
   width:35%;
 
 }
@@ -295,13 +296,54 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   background: pink;
 }
 
+.dropdown1 h3, h4{
+  text-align: center;
+  display: block;
+  padding-top:10px;
+  color:#33475B;
+}
+
+.dropdown1 hr{
+  display: block;
+  border-top:1px solid #33475B;
+  margin-top:18px;
+}
+.dropdown3 hr{
+  display:block;
+  border-top:1px solid #33475B;
+}
+
 .dropdown2{
-  height: 50%;
+  height: 40%;
   background:lightblue;
 }
 
+.dropdown2-1,
+.dropdown2-2{
+  float:left;
+  height: 100%;
+  width: 30%;
+  background:orange;
+}
+
+.dropdown2-1 h5,h6,
+.dropdown2-2 h5,h6{
+  padding-top: 20px;
+  color: #33475B;
+}
+
+.dropdown2-1 h5,
+.dropdown2-2 h5{
+  font-family: "AvenirNextLTPro-Bold.otf";
+}
+
+.dropdown2-2{
+  margin-left: 5%;
+  margin-right:5%;
+}
+
 .dropdown3{
-  height: 20%;
+  height: 30%;
   background:lightgreen;
 }
 
