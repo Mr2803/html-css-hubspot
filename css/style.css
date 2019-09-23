@@ -149,7 +149,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   height:75px;
 }
 
-/* WARNING:  */
+/* WARNING:dropdown  */
 .informazioni .dropdown{
   position:relative;
 }
@@ -183,7 +183,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 .informazioni .dropdown-content a:hover{
   background:#E5F5F8;
 }
-/* |WARNING:  */
+/* | WARNING:dropdown  */
 
 .informazioni ul{
   list-style-type: none;
@@ -262,7 +262,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   height:75px;
 }
 
-/* WARNING:  */
+/*  WARNING:dropdown  */
 .categ a.dropdown{
   position:relative;
 }
@@ -280,9 +280,8 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 }
 
 .dropdown-content-global{
-  height:350px;
+  height:300px;
   width:35%;
-
 }
 
 .dropdown1,
@@ -293,7 +292,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 
 .dropdown1{
   height:30%;
-  background: pink;
 }
 
 .dropdown1 h3, h4{
@@ -315,7 +313,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 
 .dropdown2{
   height: 40%;
-  background:lightblue;
 }
 
 .dropdown2-1,
@@ -323,7 +320,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   float:left;
   height: 100%;
   width: 30%;
-  background:orange;
 }
 
 .dropdown2-1 h5,h6,
@@ -344,7 +340,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 
 .dropdown3{
   height: 30%;
-  background:lightgreen;
 }
 
 .dropdown3 ul.size{
@@ -356,13 +351,26 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   display:inline-block;
   font-size: 12px;
   float:none;
+  color: #33475B;
+}
+
+.categ ul li.size:first-child{
+  padding: 4px 7px;
+  background:#00BEA5;
+  border-radius: 2px;
+  color:white;
+}
+
+.categ ul li.size:nth-child(2){
+  font-family: "AvenirNextLTPro-Bold.otf";
+  font-size: 13px;
 }
 
 .categ li.dropdown:hover .dropdown-content-global{
   display:inherit;
 }
 
-/* |WARNING:  */
+/* | WARNING:dropdown  */
 
 .categ ul{
   list-style: none;
