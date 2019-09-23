@@ -347,6 +347,16 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   background:lightgreen;
 }
 
+.dropdown3 ul{
+  list-style-type: none;
+}
+
+li.size{
+  display:inline-block;
+  font-size: 5px;
+  display: inline-block;
+}
+
 .categ li.dropdown:hover .dropdown-content-global{
   display:inherit;
 }
