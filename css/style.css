@@ -45,7 +45,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 /* header */
 .global-header{
   width: 100%;
-  height: 200px;
+  height: 150px;
 }
 
 /* top-header */
@@ -159,7 +159,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   position: absolute;
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
   z-index: 2;
   border-radius: 10px;
 }
@@ -169,6 +168,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   color:#33475B;
   display: block;
   margin-bottom:15px;
+  padding:15px;
   /* padding:8px auto; */
 }
 
@@ -281,7 +281,7 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 
 .dropdown-content-global{
   height:300px;
-  width:35%;
+  width:40%;
 }
 
 .dropdown1,
