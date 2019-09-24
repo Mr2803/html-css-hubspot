@@ -45,7 +45,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
 /* header */
 .global-header{
   width: 100%;
-  height: 150px;
 }
 
 /* top-header */
@@ -53,7 +52,6 @@ src: url(avenir-font/font/AvenirNextLTPro-Bold.otf);
   position:fixed;
   top:0;
   width: 100%;
-  height:50px;
   background-color:#33475B;
   z-index: 5;
 }
